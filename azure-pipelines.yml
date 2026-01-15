@@ -39,7 +39,7 @@ jobs:
       command: 'custom'
       outputTo: 'console'
       customCommand: 'fmt'
-      environmentServiceNameAzureRM: 'Azure subscription 1(2)(5a43ace7-d3fc-4352-ad8c-9b5a76824ba7)'
+      environmentServiceNameAzureRM: 'Azure subscription 1(5a43ace7-d3fc-4352-ad8c-9b5a76824ba7)'
   
   - task: TerraformTask@5
     displayName: "Terraform plan"
