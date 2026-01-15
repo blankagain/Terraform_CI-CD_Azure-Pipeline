@@ -46,7 +46,7 @@ jobs:
     inputs:
      provider: 'azurerm'
      command: 'plan'
-     commandOptions: '- out $(Build.SourcesDirectory)/tfplanfile'
+     commandOptions: '-out $(Build.SourcesDirectory)/tfplanfile'
      environmentServiceNameAzureRM: 'Azure subscription 1(5a43ace7-d3fc-4352-ad8c-9b5a76824ba7)'
 
   - task: ArchiveFiles@2
